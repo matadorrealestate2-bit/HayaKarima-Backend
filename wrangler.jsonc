@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hayakarima-backend",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-22",
+  "vars": {
+    "APP_VERSION": "2.0.0",
+    "ALLOWED_ORIGIN": "*"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "hayakarima-db",
+      "database_id": "REPLACE_WITH_D1_DATABASE_ID"
+    }
+  ]
+}
